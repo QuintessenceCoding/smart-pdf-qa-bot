@@ -5,5 +5,5 @@ __pycache__/
 *.mp3
 .DS_Store
 .vscode/
-data/temp_uploaded.pdf
 embeddings/
+.streamlit/secrets.toml

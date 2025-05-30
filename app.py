@@ -12,6 +12,7 @@ from embedder import embed_text_chunks
 from gtts import gTTS
 import tempfile
 import base64
+import tempfile
 
 # ✅ Streamlit setup
 st.set_page_config(page_title="Smart PDF Q&A Bot", layout="centered")
@@ -30,9 +31,9 @@ uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
 
 if uploaded_file:
     # Save temporarily
-    file_path = "data/temp_uploaded.pdf"
-    with open(file_path, "wb") as f:
-        f.write(uploaded_file.read())
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
+        tmp_file.write(uploaded_file.read())
+        file_path = tmp_file.name
 
     st.success("✅ PDF Uploaded!")
 
