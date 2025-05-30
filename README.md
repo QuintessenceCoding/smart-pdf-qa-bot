@@ -1,6 +1,6 @@
 # 📄 Smart PDF Q&A Bot 🤖
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://quintessencecoding-smart-pdf-qa-bot.streamlit.app](https://smart-pdf-app-bot-3gwubr78brfpi8jufga6v4.streamlit.app/))
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://smart-pdf-app-bot-3gwubr78brfpi8jufga6v4.streamlit.app/)
 
 Upload a PDF (like notes, books, resumes) and **chat with it** using AI. Ask questions and get instant, voice-assisted answers — with references from your document!
 
