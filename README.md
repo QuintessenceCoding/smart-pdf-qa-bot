@@ -1,5 +1,7 @@
 # 📄 Smart PDF Q&A Bot 🤖
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://quintessencecoding-smart-pdf-qa-bot.streamlit.app](https://smart-pdf-app-bot-3gwubr78brfpi8jufga6v4.streamlit.app/))
+
 Upload a PDF (like notes, books, resumes) and **chat with it** using AI. Ask questions and get instant, voice-assisted answers — with references from your document!
 
 ---
@@ -23,3 +25,4 @@ cd smart-pdf-qa-bot
 python -m venv venv
 source venv/bin/activate  # or .\venv\Scripts\activate (Windows)
 pip install -r requirements.txt
+streamlit run app.py
