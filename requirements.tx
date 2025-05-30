@@ -1,0 +1,7 @@
+streamlit
+python-dotenv
+torch
+sentence-transformers
+google-generativeai
+gtts
+PyMuPDF
